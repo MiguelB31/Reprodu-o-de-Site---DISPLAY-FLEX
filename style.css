@@ -1,0 +1,757 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.menu {
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+    padding: 3em 3em 40px 3em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.nome-pfp {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.foto-perfil>a>img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu-pfp {
+    list-style: none;
+    padding-top: 10%;
+    position: relative;
+    line-height: 40px;
+}
+
+#ativo {
+    color: black;
+}
+
+.item-pfp {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-size: 16px;
+    transition: ease 0.3s;
+}
+
+.menu-pfp>li>a:hover {
+    color: black;
+}
+
+.menu>p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 32.5vh;
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    padding: 3% 10% 3% 1%;
+    border: solid rgb(207, 185, 130) 1px;
+}
+
+i {
+    width: 100px;
+    color: rgb(179, 179, 179);
+    position: absolute;
+    right: 120px;
+    bottom: 70px;
+}
+
+.principal {
+    width: 78%;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.foto-principal>img {
+    height: 963px;
+    width: 50%;
+}
+
+.titulo1 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(223, 223, 223);
+    left: 50%;
+    top: -750px;
+    width: 600px;
+}
+
+.titulo2 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    left: 54%;
+    bottom: 790px;
+    width: 650px;
+}
+
+span {
+    color: rgb(207, 185, 130);
+}
+
+.p1 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 20px;
+    left: 54%;
+    top: -940px;
+    width: 300px;
+    color: rgb(151, 151, 151);
+}
+
+.p2 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 20px;
+    left: 54%;
+    top: -800px;
+    width: 600px;
+    color: rgb(151, 151, 151);
+}
+
+.signature {
+    position: relative;
+    font-family: "Herr Von Muellerhoff", cursive;
+    left: 54%;
+    bottom: 775px;
+    font-size: 40px;
+    width: 300px;
+}
+
+.follow-me {
+    width: 78%;
+    height: 40vh;
+}
+
+.follow-me>h4 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    left: 41%;
+    letter-spacing: 3px;
+    width: 300px;
+    top: 70px;
+}
+
+.galeria1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.g1 {
+    height: 200px;
+    width: 200px;
+}
+
+.g1>img {
+    height: 200px;
+    width: 200px;
+    padding-right: 1px;
+}
+
+.g2 {
+    height: 200px;
+    width: 200px;
+}
+
+.g2>img {
+    height: 200px;
+    width: 200px;
+    padding-right: 1px;
+}
+
+.g3 {
+    height: 200px;
+    width: 200px;
+}
+
+.g3>img {
+    height: 200px;
+    width: 200px;
+    padding-right: 1px;
+}
+
+.g4 {
+    height: 200px;
+    width: 200px;
+}
+
+.g4>img {
+    height: 200px;
+    width: 200px;
+    padding-right: 1px;
+}
+
+.g5 {
+    height: 200px;
+    width: 200px;
+}
+
+.g5>img {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    position: relative;
+    z-index: -1;
+    background-color: rgb(37, 37, 37);
+    height: 550px;
+    width: 100%;
+}
+.titulo-rodape{
+    color: whitesmoke;
+    position: relative;
+    left: 35%;
+    top: 100px;
+    height: 50px;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.galeria-rodape{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 35%;
+    top: 150px;
+}
+.gr1{
+    width: 100px;
+    height: 100px;
+}
+.gr1>img{
+    width: 100px;
+    height: 100px;
+}
+.gr2{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+}
+.gr2>img{
+    width: 100px;
+    height: 100px;
+}
+.gr3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+.gr3>img{
+    width: 100px;
+    height: 100px;
+}
+.gr4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+}
+.gr4>img{
+    width: 100px;
+    height: 100px;
+}
+.gr5{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+}
+.gr5>img{
+    width: 100px;
+    height: 100px;
+}
+.gr6{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+}
+.gr6>img{
+    width: 100px;
+    height: 100px;
+}
+.titulo-rodape2{
+    color: whitesmoke;
+    position: relative;
+    left: 52%;
+    top: 50px;
+    height: 50px;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.lista{
+    position: relative;
+    left: 52%;
+    top: 50px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(116, 116, 116);
+}
+ul{
+    list-style: none;
+}
+li+p{
+    position: relative;
+    left: 300px;
+    bottom: 25px;
+}
+p+hr{
+    position: relative;
+    bottom: 25px;
+}
+.titulo-rodape3{
+    color: whitesmoke;
+    position: relative;
+    left: 72%;
+    bottom: 260px;
+    height: 50px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.info-rodape{
+    position: relative;
+    left: 72%;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+    bottom: 263px;
+    padding-bottom: 20px;
+}
+.copyright{
+    position: relative;
+    left: 35%;
+    width: 700px;
+    height: 15px;
+    bottom: 100px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+    font-weight: 600;
+}
+.my-collection{
+    background-color: rgb(207, 185, 130);
+    width: 78%;
+    height: 25vh;
+}
+.my-collection>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding-right: 1%;
+    height: 15px;
+    position: relative;
+    left: 22%;
+    top: 7vh;
+}
+.my-collection>a+a{
+    color: black;
+}
+.my-collection>h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    left: 22%;
+    top: 8vh;
+}
+.galeria2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 120vh;
+    width: 78%;
+    padding-top: 30px;
+}
+.gc1{
+    background-image: url(image_1.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc2{
+    background-image: url(image_2.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc3{
+    background-image: url(image_3.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc4{
+    background-image: url(image_4.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc5{
+    background-image: url(image_5.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc6{
+    background-image: url(image_6.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc7{
+    background-image: url(image_7.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc8{
+    background-image: url(image_8.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc9{
+    background-image: url(image_9.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc10{
+    background-image: url(image_10.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc11{
+    background-image: url(image_11.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gc12{
+    background-image: url(image_12.jpg);
+    height: 250px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.principal2{
+    width: 78%;
+    background-color: whitesmoke;
+    height: 70vh;
+}
+.foto-principal2{
+    background-image: url(author.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+}
+.titulo1-2{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(223, 223, 223);
+    left: 50%;
+    top: -600px;
+    width: 600px;
+}
+
+.titulo2-2{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    left: 54%;
+    bottom: 640px;
+    width: 650px;
+}
+.p1-2{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 20px;
+    left: 54%;
+    top: -730px;
+    width: 300px;
+    color: rgb(151, 151, 151);
+}
+
+.p2-2{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-size: 20px;
+    left: 54%;
+    top: -650px;
+    width: 600px;
+    color: rgb(151, 151, 151);
+}
+
+.signature-2{
+    position: relative;
+    font-family: "Herr Von Muellerhoff", cursive;
+    left: 54%;
+    bottom: 645px;
+    font-size: 40px;
+    width: 300px;
+}
+.dados-about{
+    background-color:rgb(37, 37, 37) ;
+    width: 78%;
+    height: 20vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dados-about>p{
+    color: rgb(207, 185, 130);
+    font-size: 40px;
+}
+.dados-about>h5{
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 20px;
+}
+.itens-services{
+    width: 78%;
+    height: 75vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.itens-services>div>h3{
+    color: rgb(48, 48, 48);
+}
+.itens-services>div>p{
+    padding-top: 20px;
+    color: rgb(73, 73, 73);
+}
+.icon1{
+    background-image: url(img/lens.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.icon2{
+    background-image: url(img/print.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.icon3{
+    background-image: url(img/businessman.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.icon4{
+    background-image: url(img/studio.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.icon5{
+    background-image: url(img/camera.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.icon6{
+    background-image: url(img/camera-roll.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.contact-info{
+    width: 78%;
+    height: 30vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info>div{
+    background-color: rgba(231, 230, 230, 0.397);
+    width: 250px;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 30px;
+    line-height: 25px;
+}
+.my-collection+h2{
+    font-family: "Poppins", sans-serif;
+    width: 68%;
+    position: relative;
+    top: 60px;
+    color: rgb(43, 43, 43);
+}
+.contact-forms{
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    height: 70vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contact-forms>div{
+    background-color: rgba(231, 230, 230, 0.397);
+    width: 48%;
+    height: 60vh;
+}
+.formulario{
+    padding: 50px;
+}
+.formulario>input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+#message{
+    height: 40%;
+    margin-bottom: 40px;
+}
+.formulario>a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(207, 185, 130);
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+    border: solid 1px rgb(207, 185, 130);
+    transition: ease 0.3s;
+}
+.formulario>a:hover{
+    color: rgb(207, 185, 130);
+    background-color: whitesmoke;
+}
+.blog-corpo{
+    width: 78%;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 10%;
+    display: flex;
+    height: 150vh;
+}
+.b1{
+    background-image: url(image_1.jpg);
+    width: 380px;
+    height: 300px;
+    background-size: cover;
+}
+.blog-artigo>h3{
+    position: relative;
+    bottom: 275px;
+    left: 400px;
+}
+.data{
+    position: relative;
+    left: 400px;
+    bottom: 275px;
+    color: rgb(73, 73, 73)
+}
+.blog-artigo>strong{
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+}
+.comment{
+    position: relative;
+    left: 615px;
+    bottom: 325px;
+    color: rgb(73, 73, 73)
+}
+.texto-blog{
+    position: relative;
+    left: 400px;
+    bottom: 300px;
+    color: rgb(73, 73, 73);
+}
+.art2{
+    position: relative;
+    top: 400px;
+    right: 380px;
+}
+.b2{
+    background-image: url(image_2.jpg);
+    width: 380px;
+    height: 300px;
+    background-size: cover;
+}
+.art3{
+    position: relative;
+    top: 800px;
+    right: 760px;
+}
+.b3{
+    background-image: url(image_3.jpg);
+    width: 380px;
+    height: 300px;
+    background-size: cover;
+}
